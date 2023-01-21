@@ -1,0 +1,22 @@
+{
+  "name": "snake-service",
+  "version": "0.0.1",
+  "description": "An example api service for generating snake names",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snake",
+    "unleash",
+    "poc",
+    "api"
+  ],
+  "author": "Murshid Azher <hello@murshidazher.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2",
+    "snake-names": "1.0.9",
+    "unleash-client": "3.17.0"
+  }
+}
