@@ -16,6 +16,36 @@
 2. Run `docker-compose build` in repository root folder.
 3. Run `docker-compose up` in repository root folder.
 
+### Setting up Unleash Proxy
+
+> Documentation could be found [here](https://docs.getunleash.io/how-to/how-to-run-the-unleash-proxy).
+
+An unleash proxy is need as a way for client-sdks to consume feature flags in the application.
+
+- Open the browser and go to [localhost:4242](http://127.0.0.1:4242)
+- Add the default admin credentials and login
+- Go to Configure -> API access -> Configure the proxy
+- Create a token for the `unleash-proxy` and add it to the `docker-compose`.
+  <details>
+    <summary>Example screen shot for configured client key</summary>
+    <img src="./docs/img/configure-proxy-client-token.png" style="width: 600px;">
+  </details>
+
+- `docker-compose up proxy` to restart the proxy.
+- Verify that the proxy is running
+
+  ```sh
+  curl -H "Content-Type: application/json" \
+     -H "Authorization: proxy-client-key" \
+     -X GET \
+     http://localhost:3000/proxy
+  ```
+
+  <details>
+    <summary>Example curl request for fetching flags using proxy key</summary>
+    <img src="./docs/img/curl-for-flags-proxy.png" style="width: 600px;">
+  </details>
+
 ### User accounts
 
 - Once started up, you'll have a user with
