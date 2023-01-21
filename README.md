@@ -10,9 +10,11 @@
 
 ### Docker-compose
 
-1. Clone the `unleash-docker` repository. `git clone git@github.com:Unleash/unleash-docker.git`
+> 🐳 Make sure that the docker service is up and running.
+
+1. Clone the `unleash-docker` repository. `git clone git@github.com:murshidazher/unleash-docker.git`
 2. Run `docker-compose build` in repository root folder.
-3. Run `docker-compose` up in repository root folder.
+3. Run `docker-compose up` in repository root folder.
 
 ### User accounts
 
@@ -24,7 +26,7 @@
 
 ### Work locally with this repo
 
-> 🌟 This section is adapted from adapted from [unleash-docker docs](https://github.com/Unleash/unleash-docker#work-locally-with-this-repo).
+> 🌟 This section is adapted from adapted from [unleash-docker docs](https://github.com/murshidazher/unleash-docker#work-locally-with-this-repo).
 
 Start by cloning this repository.
 
