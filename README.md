@@ -1,5 +1,7 @@
 # [poc-express-unleash](https://github.com/murshidazher/poc-express-unleash)
 
+![Codacy grade](https://img.shields.io/codacy/grade/073df02717f24abeb2dfc569f867b149?logo=codacy&style=flat-square)
+
 > 🚀 A proof of concept for using Unleash feature flag service with express
 
 - Unleash an open-source software for managing feature flags for trunk-based development.
