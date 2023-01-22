@@ -179,8 +179,8 @@ My thoughts on Unleash,
 
 - 🟢 Great interface and easy setup
 - 🟡 Would've been great if there was an extendible db setup other than PostgreSQL (ex. MongoDB)
-- 🔴 Open-source limitations - pegging the number of project to 1 which is only the default project
-- 🔴 Controlling the access the projects required the paid version.
+- 🔴 Pegging the number of project to 1 which is only the default project. (Open-source)
+- 🔴 The user access control feature for individual projects is only available for paid versions. (Open-source)
 
 ## LICENSE
 
