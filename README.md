@@ -155,7 +155,7 @@ docker-compose up snake-service
 
 ### Work locally with this repo
 
-> 🌟 This section is adapted from adapted from [unleash-docker docs](https://github.com/murshidazher/unleash-docker#work-locally-with-this-repo).
+> 🌟 This section is adapted from [unleash-docker docs](https://github.com/murshidazher/unleash-docker#work-locally-with-this-repo).
 
 Start by cloning this repository.
 
